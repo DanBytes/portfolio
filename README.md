@@ -46,11 +46,11 @@ index.html (single page web site)
 
 #### Mobile
 
-![Mobile intro](docs/1-moile-intro.png)
-![Mobile about me](docs/2-moile-about-me.png)
-![Mobile skills](docs/3-moile-skills.png)
-![Mobile connect](docs/4-moile-connect.png)
-![Mobile goals](docs/5-moile-goals.png)
+![Mobile intro](docs/1-mobile-intro.png)
+![Mobile about me](docs/2-mobile-about-me.png)
+![Mobile skills](docs/3-mobile-skills.png)
+![Mobile connect](docs/4-mobile-connect.png)
+![Mobile goals](docs/5-mobile-goals.png)
 
 ### Target Audience
 Industry recruiters, software companies.
