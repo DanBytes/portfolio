@@ -1,0 +1,81 @@
+@media screen and (max-width: 460px) {
+    #intro-splash {
+        padding-top: 5vh;
+        .container-splash{
+            .globe {
+                top: 10vh;
+                width: 230px;
+                height: 230px; 
+            }
+            width: 100%;
+            p {
+                margin-top: 60vh;
+            }
+            
+        }
+    }
+
+    #about-me {
+        .dummy-container {
+            grid-template-columns: [col] auto[col] auto [col] auto [col] auto  ;
+            grid-template-rows: [row] auto [row] auto [row] ;
+            grid-gap: 3px;
+            .header {
+                grid-column: col 1 /span 4;
+		        grid-row: row ;
+            }
+            .portrait {
+                grid-column: col 1 / span 4 ;
+                grid-row: row 2 ;
+            }
+            .work {
+                grid-column: col / span 4;
+                grid-row: row 3 ;
+            }
+            .education {
+                grid-column: col / span 4 ;
+                grid-row: row 4 ;}
+        }
+    }
+}
+
+@media screen and (min-width: 461px) and (max-width: 900px) {
+        #intro-splash {
+            padding-top: 6vh;
+            .container-splash{
+                .globe {
+                    top: 10vh;
+                    width: 230px;
+                    height: 230px; 
+                }
+                width: 100%;
+                p {
+                    margin-top: 62vh;
+                }
+                
+            }
+        }
+    
+        #about-me {
+            .dummy-container {
+                grid-template-columns: [col] auto[col] auto [col] auto [col] auto  ;
+                grid-template-rows: [row] auto [row] auto [row] ;
+                grid-gap: 3px;
+                .header {
+                    grid-column: col 1 /span 2;
+                    grid-row: row ;
+                }
+                .portrait {
+                    grid-column: col 3 / span 2 ;
+                    grid-row: row ;
+                }
+                .work {
+                    grid-column: col / span 4;
+                    grid-row: row 2;
+                }
+                .education {
+                    grid-column: col / span 4 ;
+                    grid-row: row  3;}
+            }
+        }
+    }
