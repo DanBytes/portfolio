@@ -3,7 +3,7 @@
 Link to github repo - https://github.com/DanBytes/portfolio
 
 
-## Part One
+## Part A
 
 ### Purpose
 The purpose of my portfolio website is to introduce myself to the world and potential employers.
@@ -94,3 +94,37 @@ This is would be revised in future iteration of the site. Color Oracle seems lik
 - Improve content on the site.
 - Instead of using "scroll-behavior: smooth;" in css (which isn't compatible with many browsers) use javascript for 
     smooth scrolling to reach greater comatiblity.
+##Part B
+### 1.Describe key events in the development of the internet from the 1980s to today.
+TImeline:
+
+1981 - The TCP/IP standards were published and adapted.
+1983, TCP/IP protocols became the only approved protocol on the ARPANET (The Advanced Research Projects Agency Network). This was the first form of internet used by scientists.
+1989 - The web was originally conceived and developed to meet the demand for automatic information-sharing between scientists in universities and institutes around the world.
+1990 - ARPANET was starting to show the age and the project was closed down.
+1991 -  World Wide Web become accessible to anyone with internet connection.
+1992 - The first ever browser was created with GUI named Erwise.
+1992 - Dial Up was first commercially offered by Sprint.
+1994 - Netscape navigator was created and it was the most popular browser then.
+1998 - Google was created.
+2004 - Facebook was created.
+2005 - YouTube was invented.
+ 
+
+### 2.Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers.
+
+#### Domain. (Identifier)
+Domain is a unique identifier for IP address. Instead of writing I.P address (e.g 193.212.204.123) we use memorable words instead (e.g google.com). Domain acts much like a phone number.
+
+#### DNS (Matching System)
+Domain Name System (DNS) - in a nutshell, it is a client-server communication system. Clients on the network send requests and they receive the responses. Think of it as a phone book that matches phone numbers (domains) to services on receiving end .
+
+#### Web Servers (Matched service with the client)
+Web servers are programs that deliver content to the end user over the internet.
+
+#### Web Browsers (Clients)
+Browsers are basically clients (end users) on the network. They request data from the web servers and interpret the requests on users machines.  
+
+### 3.Reflect on one aspect of the development of internet technologies and how it has contributed to the world today
+
+While I was researching the information it came to my attention that the internet advanced rapidly and still is. Especially in the 90’s when it became publicly available, it became part of our lives nowadays, even an necessity. Many useful services live on the internet.
