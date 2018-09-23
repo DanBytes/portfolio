@@ -64,6 +64,18 @@ Industry recruiters, software companies.
 In the brain storming phase I was thinking for the themes for the site. I also wanted to create a
 clean and colourful pixel art porfolio that displays my personality and creativity.
 The themes are "dicovery"  and "introduction" as indicated by opening title "hello world"  and a spinning globe.
+### Initial Wireframes
+Those designs were dropped due to the complexity.
+![initial intro wireframe](docs/initial-intro.png)
+![initial intro wireframe](docs/initial-about-me.png)
+
+
+
+### New Wireframes
+Much easier design
+![initial intro wireframe](docs/new-intro.png)
+![new intro wireframe](docs/new-about-me.png)
+
 
 #### Mood Board Inspiration
 ![Mobile goals](docs/moodboard.png)
