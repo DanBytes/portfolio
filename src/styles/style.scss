@@ -11,12 +11,12 @@ html {
 
 @font-face {
     font-family: "yoster-island";
-    src: url("/font/yoster-island.regular.ttf");
+    src: url("../font/yoster-island.regular.ttf");
 }
 
 @font-face {
     font-family: "Digit2000";
-    src: url("/font/01-Digit2000.ttf");
+    src: url("../font/01-Digit2000.ttf");
 }
 
 a {
@@ -60,8 +60,8 @@ nav {
     width: 100vw;
     min-height: 100vh;
     padding-top: 200px;
-    background: url("/images/gif-stars.gif"),
-        url("/images/space_pattern_edited2.png");
+    background: url("../images/gif-stars.gif"),
+        url("../images/space_pattern_edited2.png");
     background-attachment: fixed;
 
     .container-splash {
@@ -97,7 +97,7 @@ nav {
             margin: auto;
             width: 300px;
             height: 300px;
-            background-image: url("/images/earth_map_edited2.png");
+            background-image: url("../images/earth_map_edited2.png");
             border-radius: 50%;
             /*border-style: solid; */
             border-width: 10px;
@@ -150,7 +150,7 @@ p {
 }
 
 .small-text {
-    font-size: 0.6rem;
+    font-size: 0.9rem;
 }
 
 ul {
@@ -165,7 +165,7 @@ ul {
 
 
 #about-me {
-    background-image: url("/images/clouds.png");
+    background-image: url("../images/clouds.png");
     width: 100vw;
     min-height: 100vh;
     background-attachment: fixed;
@@ -217,13 +217,17 @@ ul {
 }
 
 #skills {
-    background-image: url("/images/leafs.png");
+    background-image: url("../images/leafs.png");
     width: 100vw;
     min-height: 100vh;
 
 
     .dummy-container {
-
+        p {
+            width: 200px;
+            margin-left: auto;
+            margin-right: auto
+        }
 
         #technologies {
             padding-top: 30px;
@@ -240,7 +244,7 @@ ul {
 }
 
 #connect {
-    background-image: url("/images/people-s-b3.jpg");
+    background-image: url("../images/people-s-b3.jpg");
     width: 100vw;
     min-height: 100vh;
     background-repeat: repeat;
@@ -250,6 +254,13 @@ ul {
 
         min-height: 25vh;
         border: 1px solid red;
+
+        p {
+            width: 90%;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto
+        }
 
         #networks {
             margin: 3px;
@@ -275,7 +286,7 @@ ul {
 }
 
 #goals {
-    background-image: url("/images/anna-kolosyuk-481874-unsplash-edited.jpg");
+    background-image: url("../images/anna-kolosyuk-481874-unsplash-edited.jpg");
     background-size: cover;
     width: 100vw;
     min-height: 100vh;

@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -11,12 +11,12 @@ html {
 
 @font-face {
   font-family: "yoster-island";
-  src: url("/font/yoster-island.regular.ttf");
+  src: url("../font/yoster-island.regular.ttf");
 }
 
 @font-face {
   font-family: "Digit2000";
-  src: url("/font/01-Digit2000.ttf");
+  src: url("../font/01-Digit2000.ttf");
 }
 
 a {
@@ -33,7 +33,7 @@ nav {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   background-color: #950e41;
 }
 
@@ -62,7 +62,7 @@ nav .button:hover a {
   width: 100vw;
   min-height: 100vh;
   padding-top: 200px;
-  background: url("/images/gif-stars.gif"), url("/images/space_pattern_edited2.png");
+  background: url("../images/gif-stars.gif"), url("../images/space_pattern_edited2.png");
   background-attachment: fixed;
 }
 
@@ -99,21 +99,22 @@ nav .button:hover a {
   margin: auto;
   width: 300px;
   height: 300px;
-  background-image: url("/images/earth_map_edited2.png");
+  background-image: url("../images/earth_map_edited2.png");
   border-radius: 50%;
   /*border-style: solid; */
   border-width: 10px;
   background-size: cover;
   -webkit-box-shadow: -10px -20px 50px 2px #000 inset, 0 0 50px 2px #000 inset;
-          box-shadow: -10px -20px 50px 2px #000 inset, 0 0 50px 2px #000 inset;
+  box-shadow: -10px -20px 50px 2px #000 inset, 0 0 50px 2px #000 inset;
   -webkit-animation: spin 40s linear infinite;
-          animation: spin 40s linear infinite;
+  animation: spin 40s linear infinite;
 }
 
 @-webkit-keyframes spin {
   0% {
     background-position: 0;
   }
+
   100% {
     background-position: -199.99%;
   }
@@ -123,6 +124,7 @@ nav .button:hover a {
   0% {
     background-position: 0;
   }
+
   100% {
     background-position: -199.99%;
   }
@@ -139,7 +141,7 @@ nav .button:hover a {
 .container .dummy-container {
   background: rgba(255, 255, 255, 0.9);
   -webkit-box-shadow: 1px 4px 10px 2px black;
-          box-shadow: 1px 4px 10px 2px black;
+  box-shadow: 1px 4px 10px 2px black;
   min-height: 50vh;
   border-radius: 5px;
 }
@@ -152,7 +154,7 @@ h2 {
   background: rgba(255, 255, 255, 0.9);
   margin-bottom: 30px;
   -webkit-box-shadow: 1px 4px 10px 2px black;
-          box-shadow: 1px 4px 10px 2px black;
+  box-shadow: 1px 4px 10px 2px black;
   border-radius: 5px;
 }
 
@@ -162,7 +164,7 @@ p {
 }
 
 .small-text {
-  font-size: 0.6rem;
+  font-size: 0.9rem;
 }
 
 ul {
@@ -176,7 +178,7 @@ ul li {
 }
 
 #about-me {
-  background-image: url("/images/clouds.png");
+  background-image: url("../images/clouds.png");
   width: 100vw;
   min-height: 100vh;
   background-attachment: fixed;
@@ -187,7 +189,7 @@ ul li {
   display: grid;
   grid-gap: 10px;
   -ms-grid-columns: 35% 35% 29%;
-      grid-template-columns: 35% 35% 29%;
+  grid-template-columns: 35% 35% 29%;
   background-color: #fff;
   color: #444;
 }
@@ -212,7 +214,7 @@ ul li {
   border-radius: 50%;
   border: 2px solid black;
   -webkit-box-shadow: 5px 5px 10px 0px black, -5px -5px 10px 0px black;
-          box-shadow: 5px 5px 10px 0px black, -5px -5px 10px 0px black;
+  box-shadow: 5px 5px 10px 0px black, -5px -5px 10px 0px black;
   width: 100%;
 }
 
@@ -238,9 +240,15 @@ ul li {
 }
 
 #skills {
-  background-image: url("/images/leafs.png");
+  background-image: url("../images/leafs.png");
   width: 100vw;
   min-height: 100vh;
+}
+
+#skills .dummy-container p {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #skills .dummy-container #technologies {
@@ -249,10 +257,10 @@ ul li {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   text-align: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 #skills .dummy-container #technologies img {
@@ -260,7 +268,7 @@ ul li {
 }
 
 #connect {
-  background-image: url("/images/people-s-b3.jpg");
+  background-image: url("../images/people-s-b3.jpg");
   width: 100vw;
   min-height: 100vh;
   background-repeat: repeat;
@@ -272,17 +280,24 @@ ul li {
   border: 1px solid red;
 }
 
+#connect .container .dummy-container p {
+  width: 90%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #connect .container .dummy-container #networks {
   margin: 3px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   text-align: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 #connect .container .dummy-container #networks div {
@@ -290,17 +305,17 @@ ul li {
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.767);
   -webkit-box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.418);
-          box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.418);
+  box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.418);
   border-radius: 10px;
 }
 
 #connect .container .dummy-container #networks div:hover {
   -webkit-box-shadow: 2px 2px 3px 6px rgba(0, 0, 0, 0.418);
-          box-shadow: 2px 2px 3px 6px rgba(0, 0, 0, 0.418);
+  box-shadow: 2px 2px 3px 6px rgba(0, 0, 0, 0.418);
 }
 
 #goals {
-  background-image: url("/images/anna-kolosyuk-481874-unsplash-edited.jpg");
+  background-image: url("../images/anna-kolosyuk-481874-unsplash-edited.jpg");
   background-size: cover;
   width: 100vw;
   min-height: 100vh;
@@ -319,36 +334,44 @@ ul li {
   #intro-splash {
     padding-top: 5vh;
   }
+
   #intro-splash .container-splash {
     width: 100%;
   }
+
   #intro-splash .container-splash .globe {
     top: 10vh;
     width: 230px;
     height: 230px;
   }
+
   #intro-splash .container-splash p {
     margin-top: 60vh;
   }
+
   #about-me .dummy-container {
     -ms-grid-columns: [col] auto [col] auto [col] auto [col] auto;
-        grid-template-columns: [col] auto [col] auto [col] auto [col] auto;
+    grid-template-columns: [col] auto [col] auto [col] auto [col] auto;
     -ms-grid-rows: [row] auto [row] auto [row];
-        grid-template-rows: [row] auto [row] auto [row];
+    grid-template-rows: [row] auto [row] auto [row];
     grid-gap: 3px;
   }
+
   #about-me .dummy-container .header {
     grid-column: col 1 /span 4;
     grid-row: row;
   }
+
   #about-me .dummy-container .portrait {
     grid-column: col 1 / span 4;
     grid-row: row 2;
   }
+
   #about-me .dummy-container .work {
     grid-column: col / span 4;
     grid-row: row 3;
   }
+
   #about-me .dummy-container .education {
     grid-column: col / span 4;
     grid-row: row 4;
@@ -359,39 +382,48 @@ ul li {
   #intro-splash {
     padding-top: 6vh;
   }
+
   #intro-splash .container-splash {
     width: 100%;
   }
+
   #intro-splash .container-splash .globe {
     top: 10vh;
     width: 230px;
     height: 230px;
   }
+
   #intro-splash .container-splash p {
     margin-top: 62vh;
   }
+
   #about-me .dummy-container {
     -ms-grid-columns: [col] auto [col] auto [col] auto [col] auto;
-        grid-template-columns: [col] auto [col] auto [col] auto [col] auto;
+    grid-template-columns: [col] auto [col] auto [col] auto [col] auto;
     -ms-grid-rows: [row] auto [row] auto [row];
-        grid-template-rows: [row] auto [row] auto [row];
+    grid-template-rows: [row] auto [row] auto [row];
     grid-gap: 3px;
   }
+
   #about-me .dummy-container .header {
     grid-column: col 1 /span 2;
     grid-row: row;
   }
+
   #about-me .dummy-container .portrait {
     grid-column: col 3 / span 2;
     grid-row: row;
   }
+
   #about-me .dummy-container .work {
     grid-column: col / span 4;
     grid-row: row 2;
   }
+
   #about-me .dummy-container .education {
     grid-column: col / span 4;
-    grid-row: row  3;
+    grid-row: row 3;
   }
 }
+
 /*# sourceMappingURL=style.css.map */
